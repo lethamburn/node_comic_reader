@@ -1,0 +1,29 @@
+{
+  "name": "comic-reader-backend",
+  "version": "1.0.0",
+  "description": "The Comic Reader App backend & conection with the DB",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "comic",
+    "node",
+    "express",
+    "reader",
+    "react"
+  ],
+  "author": "Antonio Rosales Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
